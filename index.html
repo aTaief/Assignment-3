@@ -175,7 +175,7 @@
       <!-- Popular Product -->
       <section class="sora bg-bg_1">
         <div class="md:container mx-auto">
-          <div class="mx-20 md:mx-0">
+          <div class="mx-12 md:mx-0">
             <h2 class="text-3xl font-bold text-gr pt-32 pb-10">Popular Products</h2>
 
             <div class="flex flex-col lg:flex-row pb-28 gap-6">
@@ -387,11 +387,127 @@
         </div>
       </section>
 
+      <!-- Customer Feedback -->
+      <section class="sora bg-bg_1">
+        <div class="md:container mx-auto">
+          <div class="mx-20 md:mx-0 pb-64">
+              <h2 class="text-3xl font-bold text-gr pt-32 pb-12">Customer Feedback</h2>
+
+              <div class="flex flex-col lg:flex-row pb-32 gap-6">
+              
+                <!-- Cards -->
+                <div class="grid gap-8 lg:gap-8 grid-cols-1 lg:grid-cols-3 mx-auto">
+                  <!-- card 1 -->
+                  <div class="card bg-base-100 w-80 shadow-xl border">
+                    <figure class="pt-4">
+                      <img src="c2-assets/vegetable-busket.png" alt="vegetable basket" class="w-36 pt-4" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <p class="text-gray-500 text-center">Vegetables are in great condition. The delivery was fast and the customer service was excellent.</p>
+                      <div class="rating mx-auto ">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                      <p class="text-xs text-sky-500 text-center">Miles Davis</p>
+                      <p class="text-xs font-bold text-center">Customer</p>
+                    </div>
+                  </div>
+                  <!-- card 2 -->
+                  <div class="card bg-base-100 w-80 shadow-xl border">
+                    <figure class="pt-4">
+                      <img src="c2-assets/vegetable-busket.png" alt="vegetable basket" class="w-36 pt-4" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <p class="text-gray-500 text-center">This rice is so nice to cook and eat. We love it and appreciate the quality of the rice. Hope to buy more in the future.</p>
+                      <div class="rating mx-auto ">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                      <p class="text-xs text-sky-500 text-center">Allison Brown</p>
+                      <p class="text-xs font-bold text-center">Customer</p>
+                    </div>
+                  </div>
+                  <!-- card 3 -->
+                  <div class="card bg-base-100 w-80 shadow-xl border">
+                    <figure class="pt-4">
+                      <img src="c2-assets/vegetable-busket.png" alt="vegetable basket" class="w-36 pt-4" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <p class="text-gray-500 text-center">There is a variety of fruits. New fruits are added every week. The fruits are fresh and of good quality.</p>
+                      <div class="rating mx-auto ">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                      <p class="text-xs text-sky-500 text-center">George Smith</p>
+                      <p class="text-xs font-bold text-center">Customer</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="sora bg-gr">
+      <div class="md:container mx-auto flex flex-col">
+        <div class="mx-12 md:mx-0">
+          <!-- Subscribe -->
+          <div class="bg-white rounded-3xl flex -mt-72 lg:-mt-56 flex-col lg:flex-row ">
+            <div class="px-12 lg:px-24 py-8 lg:py-12">
+              <img src="c2-assets/vegetable-busket.png" alt="vegetable">
+            </div>
+            <div class="px-8 lg:px-0 lg:pt-24 items-center ">
+              <h2 class="text-2xl lg:text-4xl font-bold pt-2">Get Grocery News!</h2>
+              <h2 class="text-base lg:text-xl py-2 lg:py-6">Exclusive training tips, ticks, product deals and more.</h2>
+              <input type="email" placeholder="Enter email...." class="py-4 pl-5 pr-20 lg:pr-64 bg-bg_1 block rounded-xl mb-4 lg:mb-9 mt-1">
+              <button class="bg-gr hover:bg-green-400 text-white px-10 py-3 rounded-xl text-lg mb-6 lg:mb-0">Subscribe</button>
+            </div>
+          </div>
 
+          <!-- Footer -->
+          <div class="my-32 sora">
+            <div class="flex flex-col lg:flex-row gap-12 lg:gap-0 text-white justify-between">
+              <!-- 1st column -->
+              <div>
+                <img src="c2-assets/logo-footer.png" alt="Logo">
+                <p class="text-xl w-96 pt-4">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+              </div>
+
+              <!-- 2nd column -->
+              <div class="flex flex-col gap-2 lg:gap-6 text-xl">
+                <a class="hover:cursor-pointer">Product</a>
+                <a class="hover:cursor-pointer">Services</a>
+                <a class="hover:cursor-pointer">Contact us</a>
+              </div>
+
+              <!-- 3rd column -->
+              <div class="flex flex-col gap-4 text-xl">
+                <h2>Follow Us</h2>
+                <div class="flex gap-10">
+                  <i class="fa-brands fa-facebook hover:cursor-pointer"></i>
+                  <i class="fa-brands fa-instagram hover:cursor-pointer"></i>
+                  <i class="fa-brands fa-linkedin hover:cursor-pointer"></i>
+                  <i class="fa-brands fa-youtube hover:cursor-pointer"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 </body>
 </html>
